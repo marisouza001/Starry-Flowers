@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title>Starry Flowers - Login</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="formulario.css">
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <legend>
+            <img id="logo" src="logo.png" alt="logo" class="logo2">
+        </legend>
+
+        <legend>
+            <img id="logo" src="logo.png" alt="logo" class="logo3">
+        </legend>
+
+        <main><!--Meio-->
+            <section class="box">
+                <form>
+                    <fieldset action="index.html">
+                        <legend>LOGIN<img src="logo.png" class="logo" ></legend>
+                      
+                        <section class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelinput">E-mail:</label>
+                        </section>
+                        <br>
+                        <section class="inputBox">
+                            <input type="password" name="senha"  id="senha" class="inputUser" required>
+                            <label for="senha" class="labelinput">Senha:</label>
+                        </section>
+                        <br>
+                        <nav class="esqueci">
+                            <ul>
+                            <li><a href="cadastro.html">Esqueci a senha</a></li>
+                            </ul>
+                        </nav>
+                        <br>
+
+                        <button class="enviar" onclick="verificarEmail()" >Enviar</button>
+                        <br><br>
+                        <p>ou</p>
+                        <img class="facebook" src="face.png">
+                        <img class="google" src="google.png">
+                        <script>
+                            
+                            function verificarEmail() {
+                            var email = document.getElementById("email").value;
+                            if (email === "admin") {
+                            window.open("Central/central.html");
+                            window.close
+                            } else {
+                            window.open("index.html");
+                            window.close()
+                            }}</script>
+                        <script>
+                            
+                        </script>
+                        
+
+                        <nav class="cadastre">
+                            <ul>
+                                <li><a href="cadastro.html">Não tem conta? Cadastre-se</a></li>
+                            </ul>
+                        </nav>
+        
+
+
+                    </fieldset>
+
+                    
+                </form>
+            </section>
+
+        </main>
+
+        <footer><!--Rodapé-->
+        
+        
+        </footer>
+
+
+
+    </body>
+
+</html>

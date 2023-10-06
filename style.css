@@ -1,0 +1,25 @@
+@import url(cab.css);
+@import url(aba.css);
+:root{
+    --bgesc: #000000;
+    --branco: #ffffff;
+    --preto: #000;
+    --vrd: #6b8057;
+}
+*{
+    color:var(--fontColor);
+}
+body{
+  background:url("gradiente.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+a{
+  text-decoration: none;
+}
+main{
+  padding: 5px;
+}
+.log{
+  padding: 2px;
+}
